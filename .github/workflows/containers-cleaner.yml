@@ -32,6 +32,7 @@ jobs:
           ^latest$
           ^preprod$
           ^prod-(\w+)$
+          ^beta-(\w+)$
           ^(\d+\.\d+)(\.\d+)?(-(alpha|beta).\d+)?$
         containers: |
           ${{ steps.list.outputs.containers }}
